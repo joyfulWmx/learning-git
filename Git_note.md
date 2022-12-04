@@ -43,5 +43,11 @@ git push origin [branch-name] 推送当前本地分支到指定远程分支
 find . -name "._*"  | xargs rm -f
 ```
 
+```
+git push 将文件添加到远程仓库
+git push -f 强制提交，当我们本地reset到旧的版本时，然后普通push会被拦截，因为此是本地HEAD指向比远程库还要旧
+git push origin [branch-name] 推送当前本地分支到指定远程分支
+```
+
 
 
